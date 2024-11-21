@@ -182,11 +182,15 @@ float calculate(Node *root) {
         return leftSide * rightSide;
     }
     if (strcmp(root->data, "/") == 0) {
-        //eason said no error checkign or validation
+        if (rightSide == 0) {
+            //printf("Erro statement DIV by 0");
+            return 0; //div by 0 error. 
+        }
+        //eason said no error checkign or validation but here return 0.
         return leftSide / rightSide;
     }
     /* NO ERROR CHECKING ASSUME VALID INPUTS
-    printf("Error: Unknown operator '%s'\n", root->data);
+    printf("ERROR%s\n", root->data);
     return???
     */
    return 0;
