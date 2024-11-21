@@ -21,9 +21,9 @@ I used mainly the lecture on stacks and assignment 2 polish notation, to help wi
 I also referenced a lot of previous code I wrote from previous classes like CIS2500 and CIS1300 for things like removing the null terminator from strings, file reading and loading etc etc. For the makefile I literally reused the same structuring from cis2500, since I havent used a makefile in a while. 
 
 ## Implementation
-The assignment is complete. Unzip the file first. Open up terminal or powershell or whatever command line you got. Then Execute the makefile using the make command. 
-once u do make, you can do ./a3q1 "expression" or ./a3q2 to run either question.
-if u want to clean everything up do make clean. Make sure u put the expression is quotations for a3q1.
+The assignment is complete. Unzip the file first. Open up terminal or powershell or whatever command line you got. Then Execute the makefile using the MAKE command. 
+once u do MAKE, you can do ./a3q1 "expression" or ./a3q2 to run either question.
+if u want to clean everything up do MAKE CLEAN. Make sure u put the expression is quotations for a3q1.
 Use valgrind to check for memory leaks (shouldnt be any). For example valgrind ./a3q1 "expression"
 
 For Q2 make sure the files read are exactly named f.dat otherwise the program will have trouble loading because the name is hardcoded. 
