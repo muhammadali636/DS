@@ -1,7 +1,7 @@
-all: a2graph
+all: a4
 
-a2graph: main.o graph_functions.o
-	gcc -Wall -std=c99 -pedantic main.o graph_functions.o -o a2graph
+a4: main.o graph_functions.o
+	gcc -Wall -std=c99 -pedantic main.o graph_functions.o -o a4
 
 main.o: main.c graph.h
 	gcc -Wall -std=c99 -pedantic -c main.c -o main.o

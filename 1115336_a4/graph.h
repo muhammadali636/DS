@@ -8,6 +8,7 @@
 #include <string.h>
 #include <limits.h>
 #include <stdbool.h>
+#include <limits.h>
 
 // Define maximum number of vertices in the graph
 #define MAX_VERTICES 100

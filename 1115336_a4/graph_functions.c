@@ -1,5 +1,4 @@
 #include "graph.h"
-#include <limits.h>
 
 /* function will display the primary user interface
     This is already done for you*/
